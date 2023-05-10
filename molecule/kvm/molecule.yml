@@ -9,15 +9,22 @@ dependency:
 driver:
   name: vagrant
   provider:
-    name: virtualbox
+    name: libvirt
 platforms:
   - name: dns.osgiliath.test
-    box: fedora/38-cloud-base
+    box: fedora/35-cloud-base
     provider_options:
+      driver: "kvm"
       cpus: 2
-      memory: 4096
+      memory: 2048
 provisioner:
   name: ansible
+  config_options:
+    defaults:
+      forks: 20
+    ssh_connection:
+      pipelining: true
+      ssh_args: -o ControlMaster=auto -o ControlPersist=600s
 verifier:
   name: testinfra
   env:
@@ -25,4 +32,4 @@ verifier:
   options:
     v: 1
 scenario:
-  name: default
+  name: kvm

@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tcharl.freeipa_server"
+name = "tcharl.etchost_append"
 version = "0.1.0"
-description = "Freeipa server configuration with a minimum of parameter"
+description = "Appends entries in /etc/hosts file"
 authors = ["Charlie Mordant <cmordant1@gmail.com>"]
 license = "Apache2"
 readme = "README.md"
@@ -21,7 +21,7 @@ ansible-compat = "*"
 flake8 = "*"
 yamllint = "*"
 pytest-testinfra = "*"
-molecule-plugins = {version = "*", extras = ["podman"]}
+molecule-plugins = {version = "*", extras = ["vagrant"]}
 ansible-lint = "*"
 
 [build-system]

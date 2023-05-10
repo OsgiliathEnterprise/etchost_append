@@ -1,11 +1,11 @@
-Ansible SecureHost
+Ansible Etchost_append
 =========
 
-* Galaxy: [![Ansible Galaxy](https://img.shields.io/badge/galaxy-tcharl.freeipa_server-660198.svg?style=flat)](https://galaxy.ansible.com/tcharl/freeipa_server)
-* Lint, Tests & requirements: ![Molecule](https://github.com/OsgiliathEnterprise/freeipa_server/workflows/Molecule/badge.svg)
+* Galaxy: [![Ansible Galaxy](https://img.shields.io/badge/galaxy-tcharl.etchost_append-660198.svg?style=flat)](https://galaxy.ansible.com/tcharl/etchost_append)
+* Lint, Tests & requirements: ![Molecule](https://github.com/OsgiliathEnterprise/etchost_append/workflows/Molecule/badge.svg)
 * Chat: [![Join the chat at https://gitter.im/OsgiliathEnterprise/platform](https://badges.gitter.im/OsgiliathEnterprise/platform.svg)](https://gitter.im/OsgiliathEnterprise/platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Wrapper on top of Ansible freeipa server to configure it in a simple way
+Appends entries in /etc/hosts file
 
 Requirements
 ------------

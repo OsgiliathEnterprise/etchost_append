@@ -21,10 +21,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          path: tcharl.freeipa_server
+          path: tcharl.etchost_append
       - name: install prereq
         run: |
-          cd tcharl.freeipa_server
+          cd tcharl.etchost_append
           ansible-galaxy role install -r requirements-standalone.yml
           ansible-galaxy collection install -r requirements-collections.yml
   lint:
@@ -36,7 +36,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          path: tcharl.freeipa_server
+          path: tcharl.etchost_append
       - name: update apt
         run: |
           sudo apt update
@@ -48,7 +48,7 @@ jobs:
           pip3 install wheel setuptools tox
       - name: tox lint
         run: |
-          cd tcharl.freeipa_server
+          cd tcharl.etchost_append
           tox -e lint
   test:
     # The type of runner that the job will run on
@@ -58,7 +58,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          path: tcharl.freeipa_server
+          path: tcharl.etchost_append
       - name: update apt
         run: |
           sudo apt update
@@ -73,5 +73,5 @@ jobs:
           pip3 install wheel setuptools tox
       - name: Test with podman
         run: |
-          cd tcharl.freeipa_server
+          cd tcharl.etchost_append
           tox -e test-exec

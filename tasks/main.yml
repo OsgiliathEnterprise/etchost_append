@@ -5,3 +5,6 @@
   ansible.builtin.import_tasks: requirements.yml
   when:
     - standalone_role
+
+- name: Host entries
+  ansible.builtin.include_tasks: host_entries.yml
