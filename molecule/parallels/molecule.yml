@@ -9,22 +9,25 @@ dependency:
 driver:
   name: vagrant
   provider:
-    name: libvirt
+    name: parallels
 platforms:
   - name: dns.osgiliath.test
-    box: fedora/38-cloud-base
+    box: tcharl/fedora-36-aarch64
     provider_options:
-      driver: "kvm"
       cpus: 2
       memory: 2048
+    interfaces:
+      - type: dhcp
+        auto_config: true
+        network_name: private_network
 provisioner:
   name: ansible
-  config_options:
-    defaults:
-      forks: 20
-    ssh_connection:
-      pipelining: true
-      ssh_args: -o ControlMaster=auto -o ControlPersist=600s
+#  config_options:
+#    defaults:
+#      forks: 20
+#   ssh_connection:
+#     pipelining: true
+#      ssh_args: -o ControlMaster=auto -o ControlPersist=6000s
 verifier:
   name: testinfra
   env:
@@ -32,4 +35,4 @@ verifier:
   options:
     v: 1
 scenario:
-  name: kvm
+  name: parallels
