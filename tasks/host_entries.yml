@@ -5,6 +5,7 @@
   vars:
     hostname: "{{ entry.name }}"
     ip: "{{ entry.ip }}"
+    replace: "{{ entry.replace | default(false) }}"
   loop: "{{ hosts_entries | default([]) }}"
   loop_control:
     loop_var: entry

@@ -21,7 +21,7 @@ Take a look at the [molecule tests](./molecule/default/converge.yml) tests and t
 Dependencies
 ------------
 
-[ansible.freeipa collection](https://github.com/freeipa/ansible-freeipa)
+See [requirements collections](./requirements-collections.yml) and [requirements standalone](./requirements-standalone.yml)
 
 License
 -------

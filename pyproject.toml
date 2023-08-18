@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tcharl.etchost_append"
-version = "0.1.0"
+version = "2.0.1"
 description = "Appends entries in /etc/hosts file"
 authors = ["Charlie Mordant <cmordant1@gmail.com>"]
 license = "Apache2"

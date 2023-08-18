@@ -1,7 +1,7 @@
 ---
 namespace: "tcharl"
 name: "etchost_append"
-version: "1.0.1"
+version: "2.0.1"
 description: "Appends entries in etc/hosts file"
 
 authors:

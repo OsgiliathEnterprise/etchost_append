@@ -5,8 +5,10 @@
     hosts_entries:
       - name: idm.osgiliath.test
         ip: 192.168.122.1
+        # replace: true too lazy for side effect : converge once, then change the IP in etc/host, the re-converge
       - name: infra.osgiliath.test
         ip: 192.168.122.2
+        # replace: true too lazy for side effect
       - name: poc.osgiliath.test
         ip: 192.168.122.2
   roles:
