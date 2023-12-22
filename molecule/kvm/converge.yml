@@ -1,0 +1,13 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    hosts_entries:
+      - name: idm.osgiliath.test
+        ip: 192.168.122.1
+      - name: infra.osgiliath.test
+        ip: 192.168.122.2
+      - name: poc.osgiliath.test
+        ip: 192.168.122.2
+  roles:
+    - role: tcharl.etchost_append

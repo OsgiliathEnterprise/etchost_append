@@ -1,0 +1,21 @@
+---
+namespace: "tcharl"
+name: "etchost_append"
+version: "2.0.1"
+description: "Appends entries in etc/hosts file"
+
+authors:
+  - "Charlie Mordant <cmordant1@gmail.com>"
+
+repository: "https://github.com/OsgiliathEnterprise/etchost_append"
+documentation: "https://github.com/OsgiliathEnterprise/etchost_append/blob/master/README.md"
+homepage: "https://github.com/OsgiliathEnterprise/etchost_append"
+issues: "https://github.com/OsgiliathEnterprise/etchost_append/issues"
+
+readme: "README.md"
+license:
+  - "Apache-2.0"
+tags:
+  - "etchost"
+  - "host-entries"
+  - "linux"
