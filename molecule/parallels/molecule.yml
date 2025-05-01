@@ -10,7 +10,7 @@ driver:
     name: parallels
 platforms:
   - name: dns.osgiliath.test
-    box: ${TESTBOX:-bento/fedora-38-arm64}
+    box: ${TESTBOX:-bento/fedora-40}
     provider_options:
       cpus: 2
       memory: 2048
