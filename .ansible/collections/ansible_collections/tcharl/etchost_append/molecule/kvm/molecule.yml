@@ -1,0 +1,33 @@
+---
+dependency:
+  name: galaxy
+  options:
+    role-file: requirements.yml
+    requirements-file: requirements-collections.yml
+driver:
+  name: vagrant
+  provider:
+    name: libvirt
+platforms:
+  - name: dns.osgiliath.test
+    box: ${TESTBOX:-fedora/39-cloud-base}
+    provider_options:
+      driver: "kvm"
+      cpus: 2
+      memory: 2048
+provisioner:
+  name: ansible
+  config_options:
+    defaults:
+      forks: 20
+    ssh_connection:
+      pipelining: true
+      ssh_args: -o ControlMaster=auto -o ControlPersist=600s
+verifier:
+  name: testinfra
+  env:
+    PYTHONWARNINGS: "ignore:.*U.*mode is deprecated:DeprecationWarning"
+  options:
+    v: 1
+scenario:
+  name: kvm

@@ -1,0 +1,1097 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "requirements-collections.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b9563dd2d8a39766cacbe521988840ec53e0b2780347e6765abf56a120525cba",
+   "format": 1
+  },
+  {
+   "name": "LICENSE.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d2e3cfac3557306d0855cca3b7c80405e484a6c6d27426dcc68683917a4110f5",
+   "format": 1
+  },
+  {
+   "name": "tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tasks/host_entries.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2e58a9c9d57a44d73a936b8f6360ef6d40b3c3550863824f2018ff82dfd0ff4d",
+   "format": 1
+  },
+  {
+   "name": "tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d5ed1db2b7057b93a34784a395f5a43d0f194622f8a8ec5b1d4971659c42d68b",
+   "format": 1
+  },
+  {
+   "name": "tasks/host.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f581ace71caee0e0947098361265fcc449950259a906c24e57b393b865c73f23",
+   "format": 1
+  },
+  {
+   "name": "requirements-poetry.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "81c320ebd209ddddf590e3dd7a339709e27feeed8e544f56699e40d627423a2d",
+   "format": 1
+  },
+  {
+   "name": "requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a8ec512be3bc99c18ce2b7859fb518d772df811273c3aba9c2d280feff1ed0d",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c50e1d19218f98b9771880b7e6df081ba55f37ac85fa34e90ab8679ea15d654f",
+   "format": 1
+  },
+  {
+   "name": "pyproject.toml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "65dca4d623513fe68aa2637e51b8737a2164fb973fd210b18c0e8dc60829f4f0",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da67983fb94a369b7d762224848e31bd9c7ecb938022165fa907cff6ec159966",
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3b4bb57803a1730a2b100af1a059282895aef529156531e2f446563cd578591a",
+   "format": 1
+  },
+  {
+   "name": "meta/.galaxy_install_info",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5e314b96e4dccec24cef2f4ef254ec9473abbcd51eb7ddb2a26872703ca79264",
+   "format": 1
+  },
+  {
+   "name": "meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "21664dea80a67e461ce9283d920b5a01a0ba4ca48c859dd929fb380058dfd190",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b4bc306254ce32ea55857e67d87f5f11b3ca6bba8bcb8ed25f327f5a7d39a5fd",
+   "format": 1
+  },
+  {
+   "name": ".ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "997f10a90e4fa6c47e91bfeb14daba35bd814b20cac69f74f832d01a288a0549",
+   "format": 1
+  },
+  {
+   "name": "requirements-dev.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d8164e0bf4c506ba622a94bb3abe5af1daaf958283d0f6ca8f5d8e7cfab7a922",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "42ea19385f7aa16ed3fe654bab1a6f709a323f984c095e8f6b925aaa843edf63",
+   "format": 1
+  },
+  {
+   "name": ".ansible",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/.lock",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/CODE_OF_CONDUCT.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7dbc0de99a9a39de86ec13cb4795869e03bd50890b2f8420f0fca43169eff096",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "62fac83ee319dbbabc1891bf3d0df89213c07f060f1c2aecb7a7d016406be497",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd4298c5c32f55f17713f1f929373b119b59c78891bda46aa381c5deeecd7191",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39ffc2f9f6396bf0624a3d4f8cf7528a0190fb6518c2e87e8e9e554cf058b1ee",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3edf5afe1c890329a46826f37df3504c1e3547b6fb2d6aaec76bca5f9c14e24a",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.pre-commit-config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a20f712cb194e02be5fb35a3e9c6a75734a814bd73514f2a92bfdde706d57e9e",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01767ca87e24569da3b07ad1bf729e802827ba5dea8d845a6f8f508ba6156b4b",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/meta/preferences.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c546de753183c221129d8bc60420766ab53cb0eb6d3022c2f13af6212b0c279",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/meta/.galaxy_install_info",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "96ddcdc48118e62676f50c761faab2afbddd5df1a562b0504dc6daf0d482eb68",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "497eca7afcc75852ef16a72708f55c4dd3f2b9fba8b83dcbda029d7039f8a2c8",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5c03b7604140532eaf6150fdd71137bc3f332ea508845251e7adffc3f433a6d6",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "109be947619c178d2a0f6f0e8aae6072fd435476296db80be0eb6711162b486e",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a65b2779be1cc8d1e4c113ac3ed52efdd6d5081c9ec3409db53a206bde45646",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c9c687e6227658820dd38f5690abf8ef18db5dfcd3564d558c547a1ded1baea6",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/FUNDING.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d05d314344066f8b2e46149dd3d186df70484099165b8daf0c0e395721afddf",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/workflows/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b2edb3c5bf882d9bd704d834457d912f227f429addceb1509f71a3f95a396e45",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/workflows/requirements2png.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2e9af9916d000f6322b67be66c9c4930306390abe9c689f3cbd827b9c4c2fced",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/workflows/todo.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "25d6689839639311503fece02946318df82b3877e5e7ec5066b296e00d8fce7a",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/workflows/galaxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "92a3afe5cdb471a0d321d641634168ef44d5306460f5f49526eda19aa357be72",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/pull_request_template.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2df4b3b6e5ea130b626c1d0a862aff0c97ac705d4888ea6a86e9b42a3d9663ba",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/ISSUE_TEMPLATE",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/ISSUE_TEMPLATE/feature_request.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "175b6561b62ff8233b78736523aa4bb1fc1026eb990638a48ce7fe034a25a1ed",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/ISSUE_TEMPLATE/bug_report.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7043cd609a595987dcfce1d826ff03ca380ef589fdbc92a53c28fab00aa62ebd",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.github/settings.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4ff67e6bd2a63e1d881d675c5328e35acef2a9d642d2bf271980215b98c5c879",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/tox.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c45138605ef394be207ff6a68d10f69f3e9cf710433cf0ec6e2572b864e3763",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a6715293d5991467025f2c9a7c8923305f9930fa2095d729bbd3126dad4cf5f3",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/.gitlab-ci.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "661e2ed9761a06c28ce3e53ae1d955a9318a202decd6f58dbe9cd2ef3fa5259f",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/molecule/default/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e57c7be1b8d6735eb910b6b6526776ac401a9f6523e06b7aceebf2e51e10cc8",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "567842fb5b1df654e4cf84059e8fe830d9d0a84597c27b19b064754b60e9c036",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/molecule/default/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a4bf34dac42a0209f456af8c49a7f25e2e5fa2065ab4228f492b658c4f8b1383",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/molecule/default/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3814e1e94f96e84fb24a770eece6eccf1aaf754d8bdd377acb378967a3f5d6d3",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a76d17dbabf4b351f0e5be5375b3ab9968e2a1e01b2a26cf863aa4026b055abb",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.core_dependencies/SECURITY.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "485815e7e3a6aa93dd26f178b212a8f45bcb6b2c1030ddd4cbe82491438dbaf5",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/CODE_OF_CONDUCT.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7dbc0de99a9a39de86ec13cb4795869e03bd50890b2f8420f0fca43169eff096",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4f98dc27dd8ddd1de84b53619b5fd2fd9e888ce2f31113c693b52b5e40000224",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/tasks/assert.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ed61a495a88391edda12c42a8c4a6e0d5f30b6b6c1567455eb3c1fc22539dacd",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d2b53238fffb7012f9ffb7d8a2cd13febe20a914cbde7940e4d4b468c6e55792",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/tasks/gather_facts.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f7344472235335a25114e98cc16f36049c92faed855b8fbdaca8f270a7760ac4",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fbd84285992b273465f2321064a1cdeb3a5d4d67e0d03858a0bb9ed256278576",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3edf5afe1c890329a46826f37df3504c1e3547b6fb2d6aaec76bca5f9c14e24a",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.pre-commit-config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a20f712cb194e02be5fb35a3e9c6a75734a814bd73514f2a92bfdde706d57e9e",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01767ca87e24569da3b07ad1bf729e802827ba5dea8d845a6f8f508ba6156b4b",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/meta/preferences.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c546de753183c221129d8bc60420766ab53cb0eb6d3022c2f13af6212b0c279",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/meta/argument_specs.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b7887cfa00b9b2983af5f0ac6486624c7bba1bd5bd4e598501da4be615734d6",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/meta/.galaxy_install_info",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dec4d739cfd44e8a1a42c5f75a4b34cfd874208a0c25e0b765358016ed90ec2f",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2ba11cfd9f5ba24c43ade2d8297178852ec276f01ae6a8e82a223b462bb3f5ee",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61a4d4d3c309d8f28fd5d75f14a2dc2584b2285d87b1498d25e6fe2e74a3aadf",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "880a9efc2979b0329ffc63d94f00b0ffa6e200f2c18e62b7340e4f66bc033bc4",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "109be947619c178d2a0f6f0e8aae6072fd435476296db80be0eb6711162b486e",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c75a36f5a094a711d0de2e6bfcabec2fa46be034efe221f53774a3293dd83ad8",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "48d3992ffd1bb2046002863dbea2f21b6e822d72a4debb22a8d3f7e8a013e4f9",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/FUNDING.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d05d314344066f8b2e46149dd3d186df70484099165b8daf0c0e395721afddf",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/workflows/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c5ea55ca0ecb0b445427a27ac1b0d6a4b63082af3571dfa2ec6c730a4b6ce1f8",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/workflows/requirements2png.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6edb135fac88a61c7c91095293d78bbcabd8c806fc6d308d4ef616c617b11d98",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/workflows/todo.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2cd09011b839016cd1adef6e3a121d812a730bf664cf41cf8191306f71f4f726",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/workflows/galaxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "77076513fe057aadfcc17bf595e5a0b6bcca047df32b53cfc77bbfe4423527ee",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/pull_request_template.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2df4b3b6e5ea130b626c1d0a862aff0c97ac705d4888ea6a86e9b42a3d9663ba",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/ISSUE_TEMPLATE",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/ISSUE_TEMPLATE/feature_request.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "175b6561b62ff8233b78736523aa4bb1fc1026eb990638a48ce7fe034a25a1ed",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/ISSUE_TEMPLATE/bug_report.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7043cd609a595987dcfce1d826ff03ca380ef589fdbc92a53c28fab00aa62ebd",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.github/settings.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aebad8defcf0bb627e5497928c52902570877380cbfe42773570cfd2f9471f70",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/tox.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ddf9b3bcfb7d73504a2956230e2a91f4c926120a3acbd5920f56b4b8c2d9ec35",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4b8b8a10208e77afaf17eb076eaf8e28d9e3b1f2979ad4bf296ba6d903da8d21",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/.gitlab-ci.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f423dd6e560c228db0f165cfd03fc114cf504d4ba637508958b82e25f1821fc7",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/molecule/default/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acf6207f1bb7b0d271805c22d1048ed1dc476cfa480af14168173251f455c62c",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a46d76e338c823464247e7c2bb5af393c6f0477f9a72166e28d94c979b831b03",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/molecule/default/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cb17c585ad02c006f98474fbd6e5451bdc8ba66386c602bcf5e9770b9a6ea2c7",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles/robertdebock.bootstrap/SECURITY.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c110898b8730be51047e4cd52e28dd27cb5388b355f91cc4bfcfe9a09f25a43e",
+   "format": 1
+  },
+  {
+   "name": ".ansible/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections/ansible_collections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections/ansible_collections/tcharl",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3ed4001db49fadf7eabae22b6a60aa27db78c9b02d16a45742b811be1951b1ab",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/release-galaxy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8fc2a679a02f086114936af5d516081ca115feb03878224f6c092a00499ae9c8",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fefae5069f72fb3daa3e273bff27734a33b82084e767dd1acf6cbc7363bb3264",
+   "format": 1
+  },
+  {
+   "name": ".github/release-drafter.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a27568501ef18ccfe1b1b05f5bd293af101672e3db7728f1dbd8aab34995de4e",
+   "format": 1
+  },
+  {
+   "name": "tox.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ca39ba45a78515bac449c8048251e4eafbf7861d5a61c702a4b970d69afd84d8",
+   "format": 1
+  },
+  {
+   "name": ".poetry",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export/plugins.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "55a47a2492d2d6a56606a3a59a3e0601aff2c157259ffe0d0b2fea82ec39566f",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export/command.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "59961bd50a674b069fad4ebb6f5804f3e10aaabe95d288c221a7e7ae1f043de9",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export/exporter.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5989ba60aec8e8de0b0fe683484ff31b4ca14b0183f6cb86e7a33f8ed0df4147",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export/walker.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b606af4b070d8d5436635f99c4f540233e63fd07f83f4bb9a9eea06e49346ef",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2be64235eeedbbc8bd5098eee486ce9806e50817b54d2f648c3187807a290814",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info/RECORD",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f673c2acde52a78b62eba31a88f67f336a30edc1df184c0667d7a8b27f896fc4",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info/LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9f8ccc75d760535f8bcea629ab52727b7b8dbd8bd415bfca7e8cc84ba70f3a25",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info/WHEEL",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "21865023defa1c9aaa3a9414e8f1e427c7dbded30d0458e0f829fea7001b6853",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info/entry_points.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3d23823a5a3f7aaabcfa57cb6b2beef61b8c48893c91e94146b343c622fa9f66",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info/INSTALLER",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "329946360b5220f1e26b29df63cd64a41dfbff335b9af7f9374341acc74ebe92",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry_plugin_export-1.9.0.dist-info/METADATA",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8bc5c8b029b731ebbd06dc616184af293c5d2891eaba05c2cfb268f171908287",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/config.toml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8a1ed820e753019ba5c2e6a89cade5a8b862ed2db67f9f130c4642ec38fa2b8",
+   "format": 1
+  },
+  {
+   "name": ".poetry/plugins/poetry.lock",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75603809345bc276007d6ad8796a3eba2237e2bd72c45b7b4d31be82d6205cb2",
+   "format": 1
+  },
+  {
+   "name": ".poetry/.gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "101561549479892f57e28de5fdc03703bd8b668c4d0f4bca90a580b8e7a8581f",
+   "format": 1
+  },
+  {
+   "name": "poetry.lock",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d98d4e86b0fe3c0fcb34f36d30dd816214c822da70ec15fd8afb7a8707a38019",
+   "format": 1
+  },
+  {
+   "name": "molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "518a32ad6d40c679cb642394136cc641614267ccb48b9a0dc3b8397e8f6dd4b9",
+   "format": 1
+  },
+  {
+   "name": "molecule/default/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/default/tests/conftest.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a59f1d8e598a56d793b449fd8b70cf57e2bb5eb2509eae2a3430c3e83913b0b7",
+   "format": 1
+  },
+  {
+   "name": "molecule/default/tests/test_default.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "589e02e7fba1d1282116a4538e62bf6f34fe451b9bab2969a0f33ec67a679433",
+   "format": 1
+  },
+  {
+   "name": "molecule/default/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f01493a96304450f26046a1c58bcd937dbe32d8cf27252f5568bf5b0146feff9",
+   "format": 1
+  },
+  {
+   "name": "molecule/parallels",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/parallels/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e1b6c75e8d1ff3cec4083bf647f4e2e28ba26d4afc0bbf009788d7b560b4ad08",
+   "format": 1
+  },
+  {
+   "name": "molecule/parallels/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/parallels/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cd12b6577da6e63277ec6d052a00dd92cb8c96aec17e041175404e6c302133d1",
+   "format": 1
+  },
+  {
+   "name": "molecule/kvm",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/kvm/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "377a8f49f7929d8c89f91120b2b58aa8f9dc6190e35ef3a395b52af5be59275e",
+   "format": 1
+  },
+  {
+   "name": "molecule/kvm/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/kvm/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f01493a96304450f26046a1c58bcd937dbe32d8cf27252f5568bf5b0146feff9",
+   "format": 1
+  },
+  {
+   "name": ".travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "253057b2701834921ebe086dde982e3a02fb24a3575c07e9e40aa9d907f48605",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
