@@ -3,6 +3,7 @@
 .cache
 build
 .tox
+dist
 .poetry
 molecule/default/tests/__pycache__
 molecule/kvm/tests/__pycache__

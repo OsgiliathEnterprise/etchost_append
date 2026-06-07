@@ -1,0 +1,34 @@
+{
+ "collection_info": {
+  "namespace": "tcharl",
+  "name": "etchost_append",
+  "version": "2.0.1",
+  "authors": [
+   "Charlie Mordant <cmordant1@gmail.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "etchost",
+   "hostentries",
+   "linux"
+  ],
+  "description": "Appends entries in etc/hosts file",
+  "license": [
+   "Apache-2.0"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/OsgiliathEnterprise/etchost_append",
+  "documentation": "https://github.com/OsgiliathEnterprise/etchost_append/blob/master/README.md",
+  "homepage": "https://github.com/OsgiliathEnterprise/etchost_append",
+  "issues": "https://github.com/OsgiliathEnterprise/etchost_append/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "0fdc2334c023bfca7b376316953f7eb9ace635aac04c5b0c20effd14846b06da",
+  "format": 1
+ },
+ "format": 1
+}

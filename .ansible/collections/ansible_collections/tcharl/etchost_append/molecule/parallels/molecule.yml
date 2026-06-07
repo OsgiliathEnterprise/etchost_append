@@ -1,0 +1,43 @@
+---
+dependency:
+  name: galaxy
+  options:
+    role-file: requirements.yml
+    requirements-file: requirements-collections.yml
+driver:
+  name: vagrant
+  provider:
+    name: parallels
+platforms:
+  - name: dns.osgiliath.test
+    box: ${TESTBOX:-bento/fedora-43}
+    provider_options:
+      cpus: 2
+      memory: 2048
+    interfaces:
+      - type: dhcp
+        auto_config: true
+        network_name: private_network
+provisioner:
+  name: ansible
+  env:
+    ANSIBLE_COLLECTIONS_PATH: "${MOLECULE_PROJECT_DIRECTORY}/../community-collections:${HOME}/.ansible/collections:/usr/share/ansible/collections"
+  options:
+    vvv: True
+  config_options:
+    defaults:
+      remote_tmp: /tmp
+#  config_options:
+#    defaults:
+#      forks: 20
+#   ssh_connection:
+#     pipelining: true
+#      ssh_args: -o ControlMaster=auto -o ControlPersist=6000s
+verifier:
+  name: testinfra
+  env:
+    PYTHONWARNINGS: "ignore:.*U.*mode is deprecated:DeprecationWarning"
+  options:
+    v: 1
+scenario:
+  name: parallels
